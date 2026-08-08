@@ -1,0 +1,69 @@
+# Astronergy
+
+> Astronergy (Chint New Energy Technology Co., Ltd.) is the photovoltaic cell and module
+> manufacturing arm of CHINT Group. Founded in 2006, it designs, manufactures and sells
+> high-efficiency crystalline-silicon PV cells and modules — notably the n-type TOPCon
+> ASTRO N series — for utility-scale, commercial & industrial, and residential solar.
+> It sells into 140+ countries and regions. Astronergy publishes **no developer program,
+> no API documentation and no machine-readable API contract**; its public web surface is
+> marketing, product datasheets and downloadable PDFs.
+
+generated: 2026-08-06
+method: generated
+source: apis.yml + probed pages on https://www.astronergy.com/
+
+## APIs
+
+No public API. As of 2026-08-06 Astronergy publishes no developer portal, API reference,
+OpenAPI/AsyncAPI/GraphQL contract, SDK, webhook catalog or MCP server. `api.astronergy.com`
+resolves to a live application backend that answers a structured JSON 404 at every probed
+path, but it is undocumented and not offered as a product.
+
+## Company
+
+- [Astronergy](https://www.astronergy.com/): corporate site
+- [About Astronergy](https://www.astronergy.com/about-astronergy/): company profile and history
+- [CHINT Group](https://www.chint.com/): parent company
+- [Smart Manufacturing](https://www.astronergy.com/smart-manufacturing/): production footprint
+- [Work at Astronergy](https://www.astronergy.com/work-at-astronergy/): careers
+
+## Products
+
+- [Product Series](https://www.astronergy.com/product-series/): ASTRO module families
+- [Application Scenarios](https://www.astronergy.com/application-scenarios/): utility, C&I, residential
+- [Applied Cases](https://www.astronergy.com/applied-cases/): reference installations
+
+## Documents and downloads
+
+- [Download Center](https://www.astronergy.com/download-center/): all product and company documents
+- [Product Specification](https://www.astronergy.com/download-center/product-specification/): module datasheets (PDF)
+- [Installation Manual](https://www.astronergy.com/download-center/installation-manual/): install guides (PDF)
+- [Certification](https://www.astronergy.com/download-center/certification/): UL 61730, IEC 61215, IEC 61730 certificates (PDF)
+- [Warranty](https://www.astronergy.com/download-center/warranty/): warranty terms (PDF)
+- [White Paper](https://www.astronergy.com/download-center/white-paper/): technical white papers (PDF)
+- [GTCs for Sale & Delivery](https://www.astronergy.com/download-center/gtcs-for-sale-delivery/): commercial terms (PDF)
+
+## Tools
+
+- [Module Authenticity](https://www.astronergy.com/module-authenticity/): serial-number counterfeit check (web form, no public API)
+- [PV Planner](https://www.astronergy.com/pv-planner/): project yield and revenue calculator (web tool, no public API)
+- [Traceability](https://www.astronergy.com/traceability/): module traceability lookup
+
+## Governance
+
+- [Compliance](https://www.astronergy.com/compliance/): compliance policy and management system
+- [Sustainability](https://www.astronergy.com/sustainability/): ESG reporting
+- [Terms of Use](https://www.astronergy.com/terms-of-use/)
+- [Privacy Policy](https://www.astronergy.com/privacy-policy/)
+
+## News
+
+- [News](https://www.astronergy.com/news/)
+- [Blog](https://www.astronergy.com/blog/)
+- [Events](https://www.astronergy.com/events/)
+- [Expos](https://www.astronergy.com/expos/)
+
+## Contact
+
+- [Contact Us](https://www.astronergy.com/contact-us/)
+- [LinkedIn](https://www.linkedin.com/company/astronergy-solar/)
