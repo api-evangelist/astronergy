@@ -1,8 +1,19 @@
 aid: astronergy
 name: Astronergy
-description: 'Astronergy is a company surfaced via the API Evangelist harvest backlog (source: secondary-market)
-  and added to the network as a stub for full-pipeline profiling.'
+description: 'Astronergy (Chint New Energy Technology Co., Ltd.) is the photovoltaic
+  cell and module manufacturing arm of China''s CHINT Group. Founded in 2006, it is
+  one of the earliest private Chinese enterprises in the PV sector and is ranked among
+  the world''s largest module suppliers. It designs, manufactures and sells high-efficiency
+  crystalline-silicon PV cells and modules — notably the n-type TOPCon ASTRO N series
+  in bifacial and monofacial form — for utility-scale power stations, commercial and
+  industrial rooftops, and residential systems. Astronergy sells into more than 140
+  countries and regions and operates manufacturing bases and sales centers in markets
+  including Germany, Spain, the USA, Brazil and Turkey. Its public web surface is a
+  marketing and product-download site: datasheets, installation manuals, warranty and
+  certification PDFs, a module-authenticity checker and a PV Planner yield calculator.
+  It publishes no developer program, API documentation or machine-readable API contract.'
 url: https://raw.githubusercontent.com/api-evangelist/astronergy/refs/heads/main/apis.yml
+image: https://www.astronergy.com/wp-content/uploads/2023/05/logo_w.png
 x-type: company
 x-source: harvest:secondary-market
 x-tier: stub
@@ -12,6 +23,14 @@ created: '2026-08-06'
 modified: '2026-08-06'
 tags:
 - Company
+- Solar
+- Photovoltaic
+- Renewable Energy
+- Energy
+- Manufacturing
+- Hardware
+- Sustainability
+- Climate
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -19,5 +38,62 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/astronergy-domain-security.yml
 - type: Website
+  url: https://www.astronergy.com/
+- type: About
+  url: https://www.astronergy.com/about-astronergy/
+- type: Blog
+  url: https://www.astronergy.com/blog/
+- type: News
+  url: https://www.astronergy.com/news/
+- type: Products
+  url: https://www.astronergy.com/product-series/
+- type: Downloads
+  url: https://www.astronergy.com/download-center/
+- type: Compliance
+  url: https://www.astronergy.com/compliance/
+- type: Sustainability
+  url: https://www.astronergy.com/sustainability/
+- type: TermsOfService
+  url: https://www.astronergy.com/terms-of-use/
+- type: PrivacyPolicy
+  url: https://www.astronergy.com/privacy-policy/
+- type: Contact
+  url: https://www.astronergy.com/contact-us/
+- type: LinkedIn
+  url: https://www.linkedin.com/company/astronergy-solar/
+- type: Parent
+  url: https://www.chint.com/
+- type: LLMsTxt
+  url: llms/astronergy-llms.txt
+- type: Profile
+  name: Hiive secondary-market listing
   url: https://www.hiive.com/securities/astronergy-stock
+x-enrichment:
+  date: '2026-08-06'
+  status: minimal
+  artifacts_added: 2
+  pass: local-v1
+x-coverage:
+  state: none
+  reason: not-a-software-company
+  detail: >-
+    Astronergy manufactures PV cells and modules, and its whole 37-page astronergy.com
+    sitemap is marketing, PDF datasheets and two web-form tools (module-authenticity,
+    PV Planner) with no developer section — the WordPress REST API answers 401
+    rest_forbidden and the live api.astronergy.com backend returns a Spring Boot JSON
+    404 at every spec, well-known and MCP path probed.
+  evidence:
+  - url: https://www.astronergy.com/sitemap.xml
+    status: 200
+  - url: https://www.astronergy.com/wp-json/
+    status: 401
+  - url: https://api.astronergy.com/openapi.json
+    status: 404
+  - url: https://api.astronergy.com/.well-known/agent-card.json
+    status: 404
+  - url: https://www.astronergy.com/llms.txt
+    status: 404
+  checked: '2026-08-06'
